@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+  }
+
+  header {
+    background-image: url('./images/image-header.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .pheading {
+    font-family: Fraunces;
+  }
+
+  h2 {
+    font-family: Fraunces;
+  }
+
+  h4 {
+    font-family: Fraunces;
+    color: hsl(167, 40%, 24%);
+  }
+
+  .p {
+    font-family: Fraunces;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .image2 {
+    width: 50px;
+  }
+
+  .divv {
+    background-image: url('./images/image-graphic-design.jpg');
+    background-repeat: no-repeat;
+  }
+.p1{
+  color: hsl(167, 40%, 24%);
+}
+  .row2 {
+    padding-top: 50%;
+  }
+
+  .row3 {
+    background-image: url('./images/image-photography.jpg');
+  }
+
+  footer {
+    background-color: hsl(168, 43%, 63%)
+  }
+
+  .link {
+    color: hsl(167, 40%, 24%);
+  }
+  .links{
+    color:white;
+  }
+  .learnmore {
+    font-family: Fraunces;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 3px;
+  }
+
+  .learnmore1 {
+    font-family: Fraunces;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: red
+  }
+  @media only screen and (min-width: 320px) and (max-width: 425px){
+    header {
+    background-image: url('./images/image-header 2.jpg');
+    background-repeat: no-repeat;
+  }
+  .pheading{
+    font-size: 60px;
+  }
+  .divv {
+    /* background-image: url('image-graphic-design.jpg'); */
+    background-repeat: no-repeat;
+    padding: 30px;
+  }
+  .row3 {
+    /* background-image: url('image-photography.jpg'); */
+    background-repeat: no-repeat;
+    padding: 30px;
+  }
+  .section{
+    text-align: center;
+  }
+  .navlinks{
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top:100px;
+    left:30px;
+    padding: 20px 110px;
+  }
+  .contactlink{
+    background-color: yellow;
+    padding:10px 20px;
+  }
+  .links{
+    color:black;
+    padding: 10px;
+  }
+  }
+  @import url('https://fonts.google.com/specimen/Fraunces');
